@@ -1,11 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import './styles.css'
-import resim1 from '../../public/images/ibb-kariyer-hakkimizda-1.jpg'
-import resim2 from '../../public/images/ibb-kariyer-hakkimizda-2.jpg'
-import resim3 from '../../public/images/ibb-kariyer-hakkimizda-3.jpg'
-import resim4 from '../../public/images/ibb-kariyer-hakkimizda-4.jpg'
-const Hakkimizda = () => {
+const About = () => {
     return (
         <div className='container'>
             <div className='text'>
@@ -21,7 +17,7 @@ const Hakkimizda = () => {
             <div className="image-container">
                 <div>
                     <Image
-                        src={resim1}
+                        src={"/images/ibb-kariyer-hakkimizda-1.jpg"}
                         width={584}
                         height={584}
                         alt="Picture of the author"
@@ -30,7 +26,7 @@ const Hakkimizda = () => {
                 <div className='images-right'>
                     <div className='images-right1'>
                         <Image
-                            src={resim2}
+                            src={"/images/ibb-kariyer-hakkimizda-2.jpg"}
                             width={584}
                             height={279.66}
                             alt="Picture of the author"
@@ -39,7 +35,7 @@ const Hakkimizda = () => {
                     <div className='images-bottom'>
                         <div >
                             <Image
-                                src={resim3}
+                                src={"/images/ibb-kariyer-hakkimizda-3.jpg"}
                                 width={276}
                                 height={276}
                                 alt="Picture of the author"
@@ -47,7 +43,7 @@ const Hakkimizda = () => {
                         </div>
                         <div>
                             <Image
-                                src={resim4}
+                                src={"/images/ibb-kariyer-hakkimizda-4.jpg"}
                                 width={276}
                                 height={276}
                                 alt="Picture of the author"
@@ -59,4 +55,4 @@ const Hakkimizda = () => {
         </div>
     )
 }
-export default Hakkimizda
+export default About
