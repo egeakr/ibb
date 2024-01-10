@@ -7,6 +7,8 @@ export default function Home() {
       <Link href={"/hakkimizda"}>Hakkimizda</Link>
       <br />
       <Link href={"/hakkimizda-ukome"}>UKOME</Link>
+      <br />
+      <Link href={"/text"}>TextPage</Link>
     </main>
   );
 }
